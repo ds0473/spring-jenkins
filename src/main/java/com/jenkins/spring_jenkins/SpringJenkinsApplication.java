@@ -12,6 +12,7 @@ public class SpringJenkinsApplication {
 @PostConstruct
 public void init(){
 	logger.info("Application is initialized");
+	logger.info("Application is initialized after fix");
 }
 	public static void main(String[] args) {
 
